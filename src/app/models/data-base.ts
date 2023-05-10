@@ -1,4 +1,6 @@
-export const QUOTES = [
+import { Quotation } from "./quotiation";
+
+export const QUOTES: Quotation[] = [
   {
     author: 'Jonathan Carroll',
     quotation: 'To, że milczę, nie znaczy, że nie mam nic do powiedzenia.',
