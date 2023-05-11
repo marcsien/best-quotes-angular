@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Quotation } from './models/quotiation';
+import { QUOTES } from './models/data-base';
 
 @Component({
   selector: 'app-root',
@@ -8,6 +10,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
 
   showForm = false;
+  quotes: Quotation[] = QUOTES;
 
   onSwitchForm(): void{
     this.showForm = !this.showForm;
