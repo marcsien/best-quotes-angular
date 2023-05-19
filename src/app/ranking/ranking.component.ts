@@ -16,4 +16,7 @@ export class RankingComponent implements OnInit {
   @Input()
   quotes: Quotation[];
 
+  @Input()
+  title: string;
+
 }
