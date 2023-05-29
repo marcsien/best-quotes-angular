@@ -10,7 +10,7 @@ import { EventEmitter } from '@angular/core';
 export class FormComponent{
   @Output() newQuotation = new EventEmitter<Quotation>();
 
-  showForm = true;
+  showForm = false;
   quotation: Quotation = {author: '', quotation: '', votes: 0};
   
   onSwitchForm(): void{
